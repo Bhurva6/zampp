@@ -1,9 +1,6 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useEffect } from 'react';
 
 export default function FilterBar({ filters, setFilters }) {
-  const [priceRange, setPriceRange] = useState({ min: 0, max: 1000 });
-  const minPrice = 0;
-  const maxPrice = 1000;
   const dropdownStyle = "px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 bg-white text-gray-700 appearance-none cursor-pointer";
 
   useEffect(() => {
@@ -16,11 +13,6 @@ export default function FilterBar({ filters, setFilters }) {
     setFilters(prevFilters => ({ ...prevFilters, [filterType]: value }));
   };
 
-  const handlePriceChange = ({ min, max }) => {
-    const newPriceRange = { min, max };
-    setPriceRange(newPriceRange);
-    setFilters(prevFilters => ({ ...prevFilters, price: newPriceRange }));
-  };
 
   return (
     <div className="my-4 flex flex-wrap gap-4">

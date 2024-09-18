@@ -4,7 +4,6 @@ import FilterBar from '../components/FilterBar'
 import SortBar from '../components/SortBar'
 import ProductGrid from '../components/ProductGrid'
 import Pagination from '../components/Pagination'
-import CustomRangeSlider from '../components/CustomRangeSlider'
 
 export default function Home() {
   const [products, setProducts] = useState([])

@@ -1,6 +1,6 @@
 import ReactPaginate from 'react-paginate'
 
-export default function Pagination({ currentPage, totalPages, setCurrentPage }) {
+export default function Pagination({ totalPages, setCurrentPage }) {
   return (
     <ReactPaginate
       pageCount={totalPages}
