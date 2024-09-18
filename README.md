@@ -4,7 +4,7 @@
 Zampp catalog is a product catalog website built from scratch using Next.js. It helps users filter products based on various criteria such as gender, brand, price, and more. Users can also view products in two different layouts: a grid view and a list view. This project was developed to fulfill an assignment inspired by the Myntra Catalog Page, with a focus on filtering, sorting, and pagination functionalities.
 
 ###Screenshot
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/fa656489-faf1-4cb3-ba56-de9c39afd5a5)
 
 ## Features
 
